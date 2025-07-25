@@ -1,5 +1,6 @@
 import AddTodo from './components/AddTodo'
 import Counter from './components/Counter'
+import Counter5 from './components/Counter5'
 import NameChanger from './components/NameChanger'
 import Todos from './components/Todos'
 
@@ -11,6 +12,7 @@ const App = () => {
       <Todos />
       <div style={{display:'flex'}}>
       <Counter />
+      <Counter5 />
       <NameChanger />
       </div>
     </div>
