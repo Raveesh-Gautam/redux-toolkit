@@ -1,5 +1,5 @@
-import React from 'react'
 import AddTodo from './components/AddTodo'
+import Counter from './components/Counter'
 import Todos from './components/Todos'
 
 const App = () => {
@@ -7,6 +7,7 @@ const App = () => {
     <div>
       <AddTodo />
       <Todos />
+      <Counter />
     </div>
   )
 }
